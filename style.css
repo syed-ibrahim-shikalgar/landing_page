@@ -1,0 +1,248 @@
+/* index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  color: black;
+  font-size: 30px;
+}
+
+.a {
+  margin-right: 4rem;
+}
+
+.section1 {
+  margin-left: 7.6rem;
+  font-size: 22px;
+  position: relative; /* Needed for absolute positioning of lines */
+}
+
+.section1-line {
+  position: absolute;
+  bottom: -1rem; /* Adjust the value to control the distance from the links */
+  width: 100%;
+}
+
+.img {
+  margin-top: -3rem;
+  margin-left: 7rem;
+  position: relative; /* Needed for absolute positioning of lines */
+}
+
+.img::before,
+.img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 38%;
+  width: 3px;
+  background-color: black;
+}
+
+.img::before {
+  left: -1rem;
+}
+
+.img::after {
+  right: -1rem;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 2rem;
+}
+.horizontal1 {
+  margin: 2rem auto;
+  width: 35%;
+  margin-right: 12rem;
+  margin-left: 5rem;
+  border-top: 3px solid black; /* Create the horizontal line */
+  margin-top: -2rem;
+}
+.horizontal3 {
+  margin: 2rem auto;
+  width: 30%;
+  margin-left: 12rem;
+  border-top: 3px solid black; /* Create the horizontal line */
+  margin-top: -2rem;
+}
+.b {
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* //herosection */
+
+/* herosection */
+.herosection {
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* heading */
+.heading {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding-left: 5rem;
+}
+
+.heading h1 {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: black;
+  height: 15rem;
+  width: 25%;
+  padding: 2rem 5rem;
+  border-radius: 20px;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .box {
+  position: relative;
+}
+.line {
+  background-color: yellow;
+  height: 3.5px;
+  width: 50%;
+  /* transform: rotate(-55deg); */
+  position: absolute;
+}
+.line.n {
+  top: 0;
+  transform: rotate(90deg) translate(-2.5rem, -1.5rem);
+}
+.line.se {
+  transform: rotate(45deg) translate(9.5rem, 1.5rem);
+}
+.line.nw {
+  top: 0;
+  transform: rotate(45deg) translate(-2rem, 1.5rem);
+}
+.line.sw {
+  top: 0;
+  transform: rotate(-45deg) translate(-7rem, 3.5rem);
+}
+.line.ne {
+  top: 0;
+  transform: rotate(-45deg) translate(4.5rem, 3.5rem);
+}
+.line.s {
+  bottom: 0;
+  transform: rotate(90deg) translate(2.5rem, -1.5rem);
+}
+.line.w {
+  /* left: 0; */
+  transform: translate(-4rem, 4rem);
+}
+.line.e {
+  /* left: 0; */
+  width: 193%;
+  transform: translate(7.5rem, 4rem);
+}
+
+.ion {
+  color: white;
+  margin-left: 1rem;
+}
+.sun {
+  display: flex;
+  background-color: hsl(128, 69%, 59%);
+  padding: 1rem;
+  border-radius: 100%;
+}
+.sun .ion {
+  margin: 0;
+}
+.arrow-up {
+  margin-left: 8px;
+  margin-top: 4px;
+}
+.circular-cont {
+  padding: 1px;
+  background-color: #fff;
+  border-radius: 100%;
+  margin-top: 2rem;
+  height: 3rem;
+  width: 15%;
+}
+
+.detail-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-top: 1rem;
+}
+.btn p {
+  font-size: 30px;
+  padding-left: 5rem;
+}
+.donate {
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+  /* margin-right: -5rem; */
+  margin-left: 5rem;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.icon {
+  font-size: 40px;
+  background-color: black;
+  color: #fff;
+  border-radius: 100%;
+  padding: 15px 15px 15px 15px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.prodimg img {
+  padding-right: 3rem;
+  width: 45rem;
+  height: 22rem;
+}
+
+.hori {
+  height: 2px;
+  background-color: black;
+  width: 40%;
+}
+.vertical-line {
+  width: 2px;
+  height: 20rem; /* Adjust the height as needed */
+  background-color: black;
+  margin-left: 5rem; /* Center the vertical line */
+}
+
+.client-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 0;
+  font-size: 3rem;
+}
